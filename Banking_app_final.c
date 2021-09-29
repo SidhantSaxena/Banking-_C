@@ -39,7 +39,7 @@ void Transfer_money(char[]);
 
 int main()
 {  
-	PlaySound(TEXT("C:\\Users\\SAXENA\\Desktop\\my files\\GCET\\PPS btech\\Banking\\newfolfd\\intro_final"),NULL,SND_SYNC);
+	PlaySound(TEXT("MUSIC FILE PATH"),NULL,SND_SYNC);
     char option;
     while(1){
     	system("cls");

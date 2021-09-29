@@ -39,12 +39,13 @@ void Transfer_money(char[]);
 
 int main()
 {  
+	//note:account number are usually of length 16 but here just for the sake of efficiency length of 10 was taken.
 	PlaySound(TEXT("MUSIC FILE PATH"),NULL,SND_SYNC);
     char option;
     while(1){
     	system("cls");
     	system("color 4E");
-       printf("\n***** Welcome to GCET Bank Application *****\n");
+       printf("\n***** Welcome to Bank Application *****\n");
        display_options();
        printf("Please enter any options (1/2/3) ");
        printf("to continue : ");
